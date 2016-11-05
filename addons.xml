@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.adryanlist"
+       name="AdryanList"
+       version="2.6.7"
+       provider-name="Doc Shadrach">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>based on livestreamspro 2.6.7 by Shani</summary>
+    <description>Lista de canales de Adryan.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.bassfox" name="[COLOR dodgerblue]Ba[COLOR lightblue]ss[/COLOR]Fox[/COLOR]" version="1.6.5" provider-name="BassFox">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="3.0.21" optional="true"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>BASSFOX based on LivetreamsPro by Shani "All rights to this author"</summary>
+    <description lang="en">[COLOR cyan][B]BassFox[/B][/COLOR] [COLOR white]- Is an Add-on [COLOR blue][B]Kodi[/B][/COLOR] with which you can enjoy free TV channels, if you are charging for this Add-on asks for money back.
+This Add-on has a collection of list live tv channels mostly in Spanish language, Thank you for your preference [COLOR cyan][B]BassFox[/B][/COLOR] based on LivetreamsPro by[COLOR cadetblue][B] SHANI ( All rights reserved to the creator)[/B][/COLOR]</description>
+<description lang="es">[COLOR cyan][B]BassFox[/B][/COLOR][COLOR white] - Es un Add-on de [COLOR blue][B]Kodi[/B][/COLOR] con el cual podrás disfrutar de canales de tv y películas gratis, si te están cobrando por este Add-on pide la devolución de tu dinero.
+Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on LivetreamsPro by[COLOR cadetblue][B] SHANI ( All rights reserved to the creator)[/B][/COLOR]</description>
+     <disclaimer lang="en">Using this add-on is free and at your own risk if the law prohibits the use </disclaimer>
+		<disclaimer lang="es">El uso de este Add-on es gratuito y bajo tu responsabilidad si las leyes de tu país restringuen su uso</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.exabytetv"
+       name="[COLOR cyan]Exabyte TV[/COLOR]"
+       version="1.2"
+       provider-name="Sahid CG Exabyte TV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+	<import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Exabyte TV addon para Kodi</summary>
+    <description>Exabyte TV</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.metropolitan"
+       name="Metropolitan"
+       version="1.3"
+       provider-name="Bender">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Entretenimiento latino</summary>
+    <description>
+       Gracias a Victor Sepulveda, Chev Chelius por el grande apollo en este projecto, I a Barny por su colaboracion el addon.
+	   Gracias a el equipo Metropolitan i a ustedes por su apoyo.
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.vtech"
+       name="Vtech"
+       version="1.1"
+       provider-name="Victor Sepulveda">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Entretenimiento latino</summary>
+    <description>basado en live stream pro</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.the-film-zone" name="the-film-zone official Repo" version="1.1.0" provider-name="the-film-zone">
+	<extension point="xbmc.addon.repository" name="the-film-zone official Repo">
+		<info compressed="false">https://raw.githubusercontent.com/danim100/the-film-zone/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/danim100/the-film-zone/master/addons.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/danim100/the-film-zone/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The-Film-Zone official Repo</summary>
+   		<description lang="en">Instala los Addons de The-Film-Zone</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
